@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer, CrossEncoder
 from sklearn.metrics.pairwise import cosine_similarity
 
 # === Bot Token ===
-BOT_TOKEN = "7533626495:AAEuRopbcgcR6MDsfDryf2Zaec2YWgV9dlQ"
+BOT_TOKEN = "your bot token"
 
 # === Logging ===
 logging.basicConfig(level=logging.INFO, filename="bot.log", filemode="a",
